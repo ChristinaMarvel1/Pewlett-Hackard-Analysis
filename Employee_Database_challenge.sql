@@ -1,4 +1,5 @@
 
+
 -- Follow the instructions below to complete Deliverable 1.
 SELECT e.emp_no,
        e.first_name,
@@ -29,7 +30,6 @@ INTO retiring_titles
 FROM unique_titles as ut
 GROUP BY title 
 ORDER BY COUNT(title) DESC;
-
 
 -- DELIVERABLE 2: The Employees Eligible for the Mentorship Program
 
